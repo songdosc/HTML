@@ -1,0 +1,24 @@
+<!DOCTYPE=HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script>
+            var count = 0;
+            function counter() {
+                count++;
+                document.getElementById("var1").innerHTML=count;
+            }
+            function discounter() {
+                count--;
+                document.getElementById("var1").innerHTML=count;
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Javascript 연습</h1>
+        <p id = "var1">0</p>
+        <button type="button" onclick="counter()">UP</button>
+        <button type="button" onclick="discounter()">DOWN</button>
+    </BODY>
+</html>
+    
