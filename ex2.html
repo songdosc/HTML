@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+        <title>INPUT TEST</title>
+        <script>
+            function dan(inputNum){
+			           	  inputNum = parseInt(inputNum);
+               for (i=2; i<=9; i++){
+                  document.write(inputNum + " * " + i +" = " + inputNum*i+"<br>");
+               }
+               document.write("<a href='ex2.html'>돌아가기</a>")
+            }
+        </script>
+    </head>
+    <body>
+        <h1>
+            INPUT TEST
+        </h1>
+        <input type="text", id="inp1", value=0>
+        <button type="button", onclick="dan(inp1.value)">출력</button> 
+    </body>
+</html>
